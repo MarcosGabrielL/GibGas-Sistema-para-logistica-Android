@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Adcione uma conta de banco para efetura saques. A conta deve ter o mesmo titular."
+                android:textColor="#FF2F3E52"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Logradouro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="4dp"
+                android:text="Conta"
+                android:textColor="#FFCC2B46" />
+
+            <EditText
+                android:id="@+id/emp"
+                android:layout_width="150dp"
+                android:layout_height="41dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="6dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/numero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="Agência"
+                android:textColor="#FFCC2B46" />
+
+            <EditText
+                android:id="@+id/cnpj1"
+                android:layout_width="150dp"
+                android:layout_height="41dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="6dp"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/cidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="Banco"
+                android:textColor="#FFCC2B46" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="300dp"
+                android:layout_height="41dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="Tipo"
+                android:textColor="#FFCC2B46" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="344dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="6dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Poupança" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Corrente" />
+
+            </RadioGroup>
+
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/bok2"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="290dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_quadrado_borda_branco"
+                    android:text="Adicionar / Atualizar conta"
+                    android:textColor="#333333"
+                    android:textSize="@dimen/activity_vertical_margin"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/aviso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="4dp"
+                android:text='Para mais informações Sobre como funciona saques, acesse softsaj.com.br e clique na chave "GibGas", ou clique no item "Ajuda" no menu deslizante'
+                android:textColor="#FF2F3E52"
+                android:textStyle="bold" />
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/bok3"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="290dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_quadrado_escuro"
+                    android:text="Adicionar / Atualizar cartões"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/activity_vertical_margin"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

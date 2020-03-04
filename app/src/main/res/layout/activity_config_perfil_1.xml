@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Logradouro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="4dp"
+                android:text="Nome Completo"
+                android:textColor="#FFCC2B46" />
+
+            <EditText
+                android:id="@+id/emp"
+                android:layout_width="338dp"
+                android:layout_height="41dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/numero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="E-mail"
+                android:textColor="#FFCC2B46" />
+
+            <EditText
+                android:id="@+id/cnpj1"
+                android:layout_width="338dp"
+                android:layout_height="41dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/cidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="Data Nascimento"
+                android:textColor="#FFCC2B46" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="165dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="6dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/bairro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="Telefone"
+                android:textColor="#FFCC2B46" />
+
+            <EditText
+                android:id="@+id/eas"
+                android:layout_width="165dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="6dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="CPF/CNPJ"
+                android:textColor="#FFCC2B46" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="163dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="CEP"
+                android:textColor="#FF2F3E52" />
+
+            <EditText
+                android:id="@+id/editcep"
+                android:layout_width="163dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView301"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="Cidade"
+                android:textColor="#FF2F3E52" />
+
+            <EditText
+                android:id="@+id/editcidade"
+                android:layout_width="338dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="Rua"
+                android:textColor="#FF2F3E52" />
+
+            <EditText
+                android:id="@+id/editrua"
+                android:layout_width="338dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="Numero"
+                android:textColor="#FF2F3E52" />
+
+            <EditText
+                android:id="@+id/editnumero"
+                android:layout_width="163dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="Bairro"
+                android:textColor="#FF2F3E52" />
+
+            <EditText
+                android:id="@+id/editbairro"
+                android:layout_width="338dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="Complemento"
+                android:textColor="#FF2F3E52" />
+
+            <EditText
+                android:id="@+id/editcomplemento"
+                android:layout_width="338dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="Estado"
+                android:textColor="#FF2F3E52" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="163dp"
+                android:layout_height="40dp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="168dp"
+                android:layout_height="32dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/transparent_bg_bordered"
+                android:text="Atualizar"
+                android:textColor="#333333" />
+
+                <Button
+                android:id="@+id/button10"
+                android:layout_width="168dp"
+                android:layout_height="32dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/arredondado_button"
+                android:text="Sair"
+                android:textColor="@android:color/background_light" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_atividades"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Lista Remessas/Viagens" />
+        <item
+            android:id="@+id/nav_acompanhar"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Acompanhar" />
+        <item
+            android:id="@+id/nav_config"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuração" />
+    </group>
+
+    <item android:title="Communicação">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Convidar Amigos" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="Ajuda" />
+            <item
+                android:id="@+id/nav_sair"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>

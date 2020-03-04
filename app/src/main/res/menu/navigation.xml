@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_Perfil"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="Perfil" />
+
+    <item
+        android:id="@+id/navigation_money"
+        android:icon="@drawable/ic_attach_money_black_24dp"
+        android:title="Monetização" />
+
+    <item
+        android:id="@+id/navigation_geral"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Geral" />
+
+
+</menu>
