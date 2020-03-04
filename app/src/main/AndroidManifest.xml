@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.softsaj.gibgasbeta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoadToHome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".RemetenteOuTransportador"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Entrar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CadastroRemetente"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CadastroRemetente2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CadastroRemetente3"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ConfirmacaoTel"
+            android:screenOrientation="portrait"/>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".GibGas"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ResetarSenha" android:screenOrientation="portrait" />
+        <activity android:name=".BemVindo" android:screenOrientation="portrait"/>
+        <activity android:name=".CadastroTransportador" android:screenOrientation="portrait"/>
+        <activity android:name=".CadastroTransportador2" android:screenOrientation="portrait" />
+        <activity android:name=".CadastroTransportador3" android:screenOrientation="portrait"/>
+
+        <service android:name="Util.Notify_Chamada" />
+
+        <activity android:name=".Tutorial" android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
