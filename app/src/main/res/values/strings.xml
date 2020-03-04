@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">GibGas Beta</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- Strings related to Estados -->
+    <string-array name="estados">
+        <item>AC</item>
+        <item>AL</item>
+        <item>AM</item>
+        <item>AP</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF</item>
+        <item>ES</item>
+        <item>GO</item>
+        <item>MA</item>
+        <item>MG</item>
+        <item>MS</item>
+        <item>MT</item>
+        <item>PA</item>
+        <item>PB</item>
+        <item>PE</item>
+        <item>PI</item>
+        <item>PR</item>
+        <item>RJ</item>
+        <item>RN</item>
+        <item>RO</item>
+        <item>RR</item>
+        <item>RS</item>
+        <item>SC</item>
+        <item>SE</item>
+        <item>SP</item>
+        <item>TO</item>
+    </string-array>
+    <!-- Strings related to Ramos Atividade -->
+    <string-array name="ramos_atividade">
+        <item>Alimentos e Bebidas</item>
+        <item>Arte e Antiguidades</item>
+        <item>Artigos Religiosos</item>
+        <item>Assinaturas e Revistas</item>
+        <item>Automóveis e Veículos</item>
+        <item>Bebês e Cia</item>
+        <item>CDs</item>
+        <item>Brindes / Materiais Promocionais</item>
+        <item>Brinquedos e Games</item>
+        <item>Casa e Decoração</item>
+        <item>Colecionáveis</item>
+        <item>Compras Coletivas</item>
+        <item>Construção e Ferramentas</item>
+        <item>Cosméticos e Perfumaria</item>
+        <item>Cursos e Educação</item>
+        <item>Discos de Vinil</item>
+        <item>DVDs</item>
+        <item>Eletrodomésticos</item>
+        <item>Eletrônicos</item>
+        <item>Emissoras de Rádio</item>
+        <item>Emissoras de Televisão</item>
+        <item>Empregos</item>
+        <item>Empresas de Telemarketing</item>
+        <item>Esporte e Lazer</item>
+        <item>Flores, Cestas e Presentes</item>
+        <item>Fotografia</item>
+        <item>Igrejas / Templos / Instituições Religiosas</item>
+        <item>Indústria, Comércio e Negócios</item>
+        <item>Infláveis Promocionais</item>
+        <item>Informática</item>
+        <item>Ingressos</item>
+        <item>Instrumentos Musicais</item>
+        <item>Joalheria</item>
+        <item>Lazer</item>
+        <item>Livros</item>
+        <item>Moda e Acessórios</item>
+        <item>Negócios e Oportunidades</item>
+        <item>Outros Serviços</item>
+        <item>Papelaria e Escritório</item>
+        <item>Pet Shop</item>
+        <item>Saúde</item>
+        <item>Serviço de Distribuição de Jornais / Revistas</item>
+        <item>Serviços Artísticos</item>
+        <item>Serviços de Abatedouros / Matadouros</item>
+        <item>Serviços de Cartórios</item>
+        <item>Serviços de Confecções</item>
+        <item>Serviços de Cooperativas</item>
+        <item>Serviços de Despachante</item>
+        <item>Sex Shop</item>
+        <item>Shopping Centers</item>
+        <item>Tabacaria</item>
+    </string-array>
+    <!-- Strings related to Bancos do Brasil -->
+    <string-array name="bancos">
+        <item>Banco do Brasil S.A.</item>
+        <item>Banco Itaú S.A.</item>
+        <item>Banco Santander (Brasil) S.A.</item>
+        <item>Itaú Unibanco Holding S.A.</item>
+        <item>Banco Bradesco S.A.</item>
+        <item>Banco Citibank S.A.</item>
+        <item>HSBC Bank Brasil S.A. – Banco Múltiplo</item>
+        <item>Caixa Econômica Federal</item>
+        <item>Banco Mercantil do Brasil S.A.</item>
+        <item>Banco Rural S.A.</item>
+        <item>Banco Safra S.A.</item>
+        <item>Banco Rendimento S.A.</item>
+        <item>Banco da Amazônia S.A.</item>
+        <item>Banco do Nordeste do Brasil S.A.</item>
+        <item>Banco Citibank S.A.</item>
+        <item>Banco da China Brasil S.A.</item>
+        <item>Banco Inter S.A.</item>
+    </string-array>
+
+    <string name="title_activity_telaprincipal">telaprincipal</string>
+    <string name="navigation_drawer_open">Abrir Opções</string>
+    <string name="navigation_drawer_close">Fechar Opções</string>
+    <string name="nav_header_title">GibGas</string>
+    <string name="nav_header_subtitle">softsaj.com.br</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Inicio</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_config_main">Config_main</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notificações</string>
+    <string name="title_activity_excluir">Excluir</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
